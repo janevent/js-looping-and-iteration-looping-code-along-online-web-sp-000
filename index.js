@@ -9,3 +9,11 @@ function writeCards(cards, birthday) {
 }
 
 writeCards(cards, birthday);
+
+function countdown(n) {
+  let i = n; 
+  while(i >= 0) {
+    console.log(i) 
+    i--
+  }
+}
